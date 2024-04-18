@@ -15,7 +15,7 @@ export default function Home() {
     <div className='bg-grey flex flex-col'>
       <div className='flex items-center justify-start'>
         <video
-          src={require('/home/home2.mp4')}
+          src={'/home/home2.mp4'}
           autoPlay
           muted
           loop
